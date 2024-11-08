@@ -8,7 +8,7 @@ Nice tabs.
 Sets the theme for neovim.
 
 # comment.lua
-TODO
+Awesome commenting support. Go into Visual mode and highlight the lines that are to be commented out. Hit `gc` to do line by line comments, `gb` for the block version. I've used the default configs in the documentation because it is that good out of the box.
 
 # dashboard-nvim.lua
 Plugin to create cool lookin landing pages for neovim.
@@ -63,3 +63,15 @@ Indentation guide.
 
 # crates.lua & rustaceanvim
 Rust stuff.
+
+# vimtex
+Nvim - Tex plugin support. Manages pdf viewer support and etc
+local leader is '\' key.
+Shortcuts:
+\ll -> compile; \lk to stop compilation
+\lc -> clean aux files
+\lf -> toggle quickfix menu
+\lt -> toggle table of contents
+
+# colorizer
+Hex code colorizer

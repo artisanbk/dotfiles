@@ -5,6 +5,7 @@ local opt = vim.opt -- so we dont have to repeat vim.opt.___ all the time
 opt.mouse = "" -- disable mouse
 
 opt.relativenumber = true
+opt.number = true
 
 opt.wrap = true
 

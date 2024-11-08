@@ -26,7 +26,6 @@ return {
       ensure_installed = {
         "asm_lsp",        -- assembly
         "autotools_ls",   -- automake, Make
-        "ltex",           -- LaTeX
         "lua_ls",         -- Lua
         "markdown_oxide", -- Markdown
         "sqls",           -- SQL
